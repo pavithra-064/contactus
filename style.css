@@ -247,3 +247,9 @@ input {
   height: 40px;
   width: 40px;
 }
+
+#submit {
+  color: white;
+  cursor: pointer;
+  margin-top: 10px;
+}

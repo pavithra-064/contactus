@@ -1,44 +1,57 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Contact us form</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-<body>
-<div class="container" id="container">
-	<div class="form-container sign-in-container">
-		<form action="#" method="post" action="contact.php"  onsubmit="myFunction()">
-			<h1>CONTACT US</h1>
-			<div class="social-container">
-				<a href="#" class="social"><i class="fa fa-facebook"></i></a>
-	            <a href="#" class="social"><i class="fa fa-google"></i></a>
-			    <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
-			</div>
-            <input type="name" placeholder="Name" required />
-			<input type="email" placeholder="Email" required/>
-			<input type="contact number" placeholder="Contact number" requireed />
-            <input type="message" placeholder="Message" required />
-			<button type="submit" value="Submit request"><a>SUBMIT</a></button>
-		</form>
-	</div>
-	<div class="overlay-container">
-		<div class="overlay">
-			<div class="overlay-panel overlay-left">
-				<h1>Thank you for contacting us</h1>
-                <h3>We will reach out to you soon</h3>
-			</div>
-			<div class="overlay-panel overlay-right">
-                 <h1>LAZYPANDAW</h1>
-				<p>Feel free to contact us anytime</p>
-			</div>
-		</div>
-	</div>
-</div>
-<script> function myFunction() {
-	alert("The form was submitted"); } </script>
-<script type="text/javascript" src="script.js"></script>
-</body>
+  <head>
+    <title>Contact us form</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container" id="container">
+      <div class="form-container sign-in-container">
+        <form
+          action="#"
+          method="post"
+          action="contact.php"
+          onsubmit="myFunction()"
+        >
+          <h1>CONTACT US</h1>
+          <div class="social-container">
+            <a href="#" class="social"><i class="fa fa-facebook"></i></a>
+            <a href="#" class="social"><i class="fa fa-google"></i></a>
+            <a href="#" class="social"><i class="fa fa-linkedin"></i></a>
+          </div>
+          <input type="name" placeholder="Name" required />
+          <input type="email" placeholder="Email" required />
+          <input type="contact number" placeholder="Contact number" requireed />
+          <input type="message" placeholder="Message" required />
+          <button type="submit" value="Submit request" id="submit">
+            SUBMIT
+          </button>
+        </form>
+      </div>
+      <div class="overlay-container">
+        <div class="overlay">
+          <div class="overlay-panel overlay-left">
+            <h1>Thank you for contacting us</h1>
+            <h3>We will reach out to you soon</h3>
+          </div>
+          <div class="overlay-panel overlay-right">
+            <h1>COMPANY</h1>
+            <p>Feel free to contact us anytime</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      function myFunction() {
+        alert("The form was submitted");
+      }
+    </script>
+    <script type="text/javascript" src="script.js"></script>
+  </body>
 </html>
