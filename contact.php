@@ -1,3 +1,4 @@
+
 <?php
 $name = $_POST['name'];
 $visitor_email = $_POST['email'];
@@ -6,7 +7,6 @@ $message = $_POST['message'];
 if (isset($email)) {
     echo 'Success! Thanks for submitting';
 }
-
 
 $email_from = "pavithrasubramanian21@gmail.com";
 
